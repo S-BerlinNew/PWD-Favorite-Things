@@ -2,8 +2,8 @@ html,
 body {
   width: auto;
   height: auto;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 0 auto;
   background-color: #c3c2bf;
 }
 
@@ -347,7 +347,12 @@ footer {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+/* RESPONSIVE PADA FILE MYTHINGS2.HTML */
 @media screen and (max-width: 768px) {
+  .badminton {
+    flex-direction: column;
+    text-align: left;
+  }
   .badminton img {
     float: none;
     width: 100%;
@@ -355,7 +360,51 @@ footer {
 
   .badminton h2,
   .badminton ul {
-    text-align: center;
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .youtube {
+    flex-direction: column;
+    text-align: left;
+  }
+  .youtube img {
+    float: none;
+    width: 100%;
+  }
+
+  .youtube h2,
+  .musik ul {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .musik {
+    flex-direction: column;
+    text-align: left;
+  }
+  .musik img {
+    float: none;
+    width: 100%;
+  }
+
+  .musik h2,
+  .musik ul {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .kucing {
+    flex-direction: column;
+    text-align: left;
+  }
+  .kucing img {
+    float: none;
+    width: 100%;
+  }
+
+  .kucing h2,
+  .kucing ul {
     padding-left: 0;
   }
 }
