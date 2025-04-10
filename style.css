@@ -347,6 +347,19 @@ footer {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
+@media screen and (max-width: 768px) {
+  .badminton img {
+    float: none;
+    width: 100%;
+  }
+
+  .badminton h2,
+  .badminton ul {
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
 /* HEADER ABOUT */
 .divabout h1 {
   text-align: center;
